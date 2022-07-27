@@ -2,7 +2,7 @@ import React from 'react' ///https://www.linkedin.com/in/mateus-andrade-11655922
 import './Contact.css'
 import {CgMail} from 'react-icons/cg'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {BsFillPhoneFill} from 'react-icons/bs'
+import {BsFillPhoneFill} from 'react-icons/bs'  //MateusAndrade.github.io
 import {AiFillFacebook} from 'react-icons/ai'
 import {Link} from 'react-router-dom'
 const Contact = () => {
