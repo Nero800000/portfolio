@@ -1,0 +1,14 @@
+
+.mybutton {
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 3px;
+    color: gray;
+    background-color: #202020;
+    font-weight: bold;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
