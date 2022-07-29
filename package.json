@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "version": "0.1.0",
-  "homepage": "https://github.com/portfolio/",
+  "version": "0.1.0",  
+  "homepage": "https://github.com/Nero800000/portfolio/",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
