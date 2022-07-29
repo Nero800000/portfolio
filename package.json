@@ -1,7 +1,8 @@
 {
   "name": "portifolio",
   "version": "0.1.0",
-  "homepage": "github-page/",
+  "homepage": "./",
+
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
