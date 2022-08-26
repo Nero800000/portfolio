@@ -16,10 +16,10 @@ const Navbar = () => {
     return (
       <div className="Navbar">
       
-        <span className="nav-logo">Mateus Portifolio </span>
+        <span className="nav-logo">Mateus Portfolio </span>
         <div className={`nav-items ${isOpen && "open"}`} >
         <Link className="link-nav"  to="/" >Home</Link> 
-        {url === 'http://localhost:3000/portfolio/' ? <ScrollLinks className="link-nav " to="projects" spy={true} smooth={true} offset={50} duration={1000} onClick={closeMenu}>HostedProjects</ScrollLinks>: false }
+        {url === 'https://nero800000.github.io/portfolio/' ? <ScrollLinks className="link-nav " to="projects" spy={true} smooth={true} offset={50} duration={1000} onClick={closeMenu}>HostedProjects</ScrollLinks>: false }
         <Link className="link-nav " to="/projetos" >ProjectsGit</Link>  
         <Link className="link-nav " to="/contato" >Contact</Link>
         
