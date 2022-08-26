@@ -1,7 +1,8 @@
 import React, { useState,useEffect } from 'react'
-import {Link} from 'react-router-dom'
+
 import Button from '../components/Button'
 import './Projects.css'
+import Navbar from '../components/Navbar'
 
 const Projects = () => {
     const [data,setDatas] = useState([])
@@ -28,21 +29,9 @@ const Projects = () => {
 //{window.location.href=`${item.html_url}`}
     return (
         <div>
-             <header> 
-        <nav className="navegacao">
-            <div> 
-            <h1 className="title">Mateus Andrade</h1>
-               <p className="sub-title">portifolio pessoal</p>
-               </div>
-            <ul className="lista-principal">
-                 <Link to="/">< li>Home</li  ></Link>
-                 <Link to="/projetos    ">< li>Projects</li  ></Link>
-               <button className="contato-link"><Link className="link" to='/contato'>Contacts</Link></button>
-         
-               
-            </ul>
-        </nav>
-        </header>
+              <header>
+                <Navbar/>
+              </header>
          <div className="line"></div>
            <div >
            <ul className='mylist'>

@@ -1,20 +1,5 @@
 
-.navegacao {
-    padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    background-color: #202020;
-   
-}
 
-.lista-principal {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    align-items: center;
-}
 
 .title {
     height: 35px;
@@ -22,26 +7,74 @@
     font-size: 30px;
   
 }
-
-.sub-title {
-   margin-left: 20px;
-   font-weight: bold;
-   font-size: 20px;
-   color: gray;
+.Myicons {
+    display: flex;
+    margin-top: 20px;
+   justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-li {
-  font-size: 25px;
-  font-weight: bold;
-  color: gray;
-  text-decoration: none;
-
+.MyButtonCvDiv {
+    text-align: center;
+    margin-top: 20px;
+}
+.buttonCv {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FF5722;
+    cursor: pointer;
+    transition: 0.8s;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
-.line {
-    border-bottom: 2px solid black;
+.buttonCv:hover {
+    opacity: 0.8;
+    
+}
+
+svg {
+    border-radius: 10px;
+}
+.react {
+    color: #5CCFEE;
+    border: 1px solid #5CCFEE;
+}
+.javaScriptIcons {
+    color: black;
+    background-color: yellow;
+}
+.nodeIcon {
+    background-color: green;
+    color: white;
+}
+.Myhtml {
+    background-color: #FF5722;
+    color: white;
+}
+.css3Icons {
+    color: white;
+    background-color: #1572B6;
+}
+
+.lineNova {
+    border-bottom: 2px solid #202020;
     height: 5px;
+    width: 30%;
+    margin: auto;
+    margin-top: 80px;
 }
-.main-conteudo {
+
+.title-project {
+    text-align: center;
+    margin-top: 60px;
+}
+.section-conteudo {
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
@@ -49,7 +82,7 @@ li {
     
 }
 
-img {
+.imgportifolio {
     margin-top: 50px;
     height: 400px;
     border-radius: 180px;
@@ -79,37 +112,63 @@ p {
    
 }
 
-.link {
-    text-decoration: none;
-    color: white;
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 120px;
+   margin-top: 50px;
+  
 }
 
-.link:hover {
-  color: gray;
-  transition: 0.8s;
+.imgProjects {
+
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translateY(160px);
+    transition: 0.8s;
+   
+    border: 2px solid white;
+}
+.description {
+    width: 340px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+   font-weight: bold;
+   
+   
+   
 }
 
+.imgProjects:hover {
+    transform: translateY(40px);
+}
+footer {
+    background-color: #202020;
+    text-align: center;
+}
 
-
-
-
-@media screen and (max-width:602px) {
-    .navegacao {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
+@media screen and (max-width:1440px) {
+   
+    .textInformation {
+        width: 550px;
        
-    }
-    .lista-principal {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        gap: 20px;
-        align-items: center;
-    }
 
-    .main-conteudo {
+    }
+   
+
+}
+
+
+@media screen and (max-width:1024px) {
+   
+
+
+    .section-conteudo {
         margin-top: 80px;
         display: flex;
         flex-direction: column;
@@ -117,7 +176,50 @@ p {
         align-items: center;
         
     }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        margin-bottom: 120px;
+        margin-top: 20px;
+    }
+    .h1informações {
+        margin-top: 80px;
+    }
+    .textInformation {
+        width: 600px;
+    }
+   
+
+}
+@media screen and (max-width:700px) {
+   
+
+
+    .section-conteudo {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+       
+        align-items: center;
+        
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        margin-bottom: 120px;
+        margin-top: 20px;
+    }
+    .h1informações {
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+    .textInformation {
+        width: 350px;
+    }
     
+   
 
 }
 

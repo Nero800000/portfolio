@@ -4,7 +4,7 @@ import {CgMail} from 'react-icons/cg'
 import {AiFillLinkedin} from 'react-icons/ai'
 import {BsFillPhoneFill} from 'react-icons/bs'  //MateusAndrade.github.io
 import {AiFillFacebook} from 'react-icons/ai'
-import {Link} from 'react-router-dom'
+import Navbar from '../components/Navbar'
 const Contact = () => {
         
     const handleFacebook = () => {
@@ -18,19 +18,10 @@ const Contact = () => {
     return (
         <div className='principal'>
                <header> 
-        <nav className="navegacao">
-            <div> 
-            <h1 className="title">Mateus Andrade</h1>
-               <p className="sub-title">portifolio pessoal</p>
-               </div>
-            <ul className="lista-principal">
-                <Link to="/">< li>Home</li  ></Link>
-                <Link to="/projetos">< li>Projects</li></Link>
-                
-                <button className="contato-link"><Link className="link" to='/contato'>Contacts</Link></button> 
-            </ul>
-        </nav>
-        </header>
+                 <Navbar/>
+               </header>
+        
+       
          <div className="line"></div>
          <div className="icons">
          <CgMail/><p>balrogsinistro@gmail.com</p>
@@ -38,12 +29,12 @@ const Contact = () => {
           <button className='button-icon' onClick={handleFacebook}><AiFillFacebook/></button>  
           <button className='button-icon' onClick={handleLinkdin}><AiFillLinkedin/> </button>
           <BsFillPhoneFill/> <p>11 965031583</p>
-             
+          </div>   
          </div>
           
 
 
-        </div>
+     
     )
 }
 
