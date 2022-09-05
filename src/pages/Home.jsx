@@ -61,7 +61,7 @@ const Bleach = () => {
              
            </section>
            <div className="lineNova"></div>
-             <h1 className="title-project">Projects</h1>
+             <h1 className="title-project">Projetos</h1>
               <section className="projects">
                 <div> 
                 <img src={CRUD} onClick={MyBooks} className="imgProjects" alt="Crud" />
