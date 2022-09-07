@@ -15,7 +15,7 @@ import Cv from '../Cv/cv.pdf'
 
 const Home =() => {
   const MyBooks = () => {
-    const url = 'https://nero800000.github.io/MyBooks/'
+    const url = 'https://github.com/Nero800000/MyBooks'
     window.open(`${url}`, "_blank")
 }
 const ShowDoMilhao = () => {
