@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0f4e7818.css",
-    "main.js": "/portfolio/static/js/main.a1df609e.js",
+    "main.css": "/portfolio/static/css/main.23939e63.css",
+    "main.js": "/portfolio/static/js/main.3d427e67.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mateus.png": "/portfolio/static/media/mateus.230dfee9961e9c968a87.png",
     "static/media/imgPortiBleach.png": "/portfolio/static/media/imgPortiBleach.92e73c741cef01526569.png",
     "static/media/cv.pdf": "/portfolio/static/media/cv.d9f3b6843cfaad4e6272.pdf",
+    "static/media/type.pdf": "/portfolio/static/media/type.e5613a6830f46606d555.pdf",
+    "static/media/api_jwt.png": "/portfolio/static/media/api_jwt.57a583e9010e338123cb.png",
+    "static/media/api.png": "/portfolio/static/media/api.d25b1c7c3665d2fdc479.png",
     "static/media/milhaoo.png": "/portfolio/static/media/milhaoo.8d8c7e26e6f3ac32c2f7.png",
+    "static/media/list.png": "/portfolio/static/media/list.f29a4d131fd7aec37b2b.png",
+    "static/media/Certificado DAaaa.pdf": "/portfolio/static/media/Certificado DAaaa.73676a1bb56efccda147.pdf",
     "static/media/CRUD.png": "/portfolio/static/media/CRUD.6af833c9a7447990b779.png",
     "index.html": "/portfolio/index.html",
-    "main.0f4e7818.css.map": "/portfolio/static/css/main.0f4e7818.css.map",
-    "main.a1df609e.js.map": "/portfolio/static/js/main.a1df609e.js.map",
+    "main.23939e63.css.map": "/portfolio/static/css/main.23939e63.css.map",
+    "main.3d427e67.js.map": "/portfolio/static/js/main.3d427e67.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f4e7818.css",
-    "static/js/main.a1df609e.js"
+    "static/css/main.23939e63.css",
+    "static/js/main.3d427e67.js"
   ]
 }
