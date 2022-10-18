@@ -9,14 +9,30 @@
 }
 .Myicons {
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+    height: 200px;
+    margin-bottom: 200px;
+    
+    
 }
+.skillIcon {
+    height: 100px;
+    width: 100px;
+}
+
+.skllText {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
 .MyButtonCvDiv {
     text-align: center;
-    margin-top: 20px;
+    
 }
 .buttonCv {
     padding: 10px;
@@ -27,6 +43,7 @@
     background-color: #FF5722;
     cursor: pointer;
     transition: 0.8s;
+    margin-top: 20px;
 }
 a {
     text-decoration: none;
@@ -40,6 +57,15 @@ a {
 
 svg {
     border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    transition: 0.6s;
+}
+svg:hover {
+    opacity: 0.6;
+}
+.social-icons:hover {
+    color: white;
 }
 .react {
     color: #5CCFEE;
@@ -60,6 +86,14 @@ svg {
 .css3Icons {
     color: white;
     background-color: #1572B6;
+}
+.IconTs {
+    color: #1572B6;
+    background-color: white;
+}
+.gitICOn {
+    color: white;
+    background-color: orangered;
 }
 
 .lineNova {
@@ -114,13 +148,54 @@ p {
 
 .projects {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 120px;
     margin-bottom: 120px;
    margin-top: 50px;
   
+   
+  
 }
+.Mycontatos {
+    display: flex;
+    align-items: center;
+    background-color: black;
+     overflow-wrap: break-word;
+    flex-wrap: wrap;
+    border-bottom: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;   
+   
+}
+.phone {
+    color: white;
+}
+.gmail {
+    color: purple;
+}
+
+.localizacao {
+    color: green;
+}
+.redesSociais {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 20px;
+     background-color: #202020;
+     width: 400px;
+     gap: 20px;
+     border-radius: 10px;
+}
+
+.social-icons {
+    color: black;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
 
 .imgProjects {
 
@@ -128,7 +203,7 @@ p {
     width: 400px;
     border-radius: 20px;
     cursor: pointer;
-    transform: translateY(160px);
+    transform: translateY(150px);
     transition: 0.8s;
    
     border: 2px solid white;
@@ -189,6 +264,16 @@ footer {
     .textInformation {
         width: 600px;
     }
+    .cerficados {
+        display: flex;
+        flex-direction: column;
+    }  
+
+   .Myicons {
+    margin-top: 630px;
+           display: flex;
+           flex-direction: column;
+     }
    
 
 }
@@ -218,9 +303,68 @@ footer {
     .textInformation {
         width: 350px;
     }
+    .cerficados {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Myicons {
+        margin-top: 630px;
+        display: flex;
+        flex-direction: column;
+  }
+
     
    
 
 }
 
+footer {
+    margin-top: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
+.contato {
+    height: 50px;
+    transition: 0.8s;
+}
+
+.contato:hover {
+    color: black;
+}
+.Myfooter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cetificadosTitle{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.cerficados {
+    margin-top: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+}
+
+.cerficadosBtn {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #202020;
+    cursor: pointer;
+    transition: 0.8s;
+    border-color: #202020;
+}
+.cerficadosBtn:hover{
+    background-color: black;
+}
